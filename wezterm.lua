@@ -1,4 +1,10 @@
-local wezterm = require("wezterm")
-local config = wezterm.config_builder()
-config = { font = wezterm.font("FiraCode Nerd Font"), color_scheme = "Tokyo Night Storm", enable_scroll_bar = true }
+local config = require("wezterm").config_builder()
+config = {
+    font = require("fonts").set_font(),
+    color_scheme = "Tokyo Night Storm",
+    enable_scroll_bar = true,
+    use_ime = true,
+    window_background_opacity = 0.8,
+    text_background_opacity = 0.8,
+}
 return config
