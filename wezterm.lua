@@ -6,5 +6,6 @@ config = {
     use_ime = true,
     window_background_opacity = 0.8,
     text_background_opacity = 0.8,
+    keys = require("keys"),
 }
 return config
