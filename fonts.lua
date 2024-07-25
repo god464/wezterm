@@ -2,11 +2,12 @@ local fallback = require("wezterm").font_with_fallback
 local function set_font()
     return fallback({
         {
-            family = "FiraCode Nerd Font",
+            family = "FiraCode Nerd Font Mono",
             harfbuzz_features = {
                 "cv01=1",
                 "cv02=1",
                 "cv14=1",
+                "cv30=1",
                 "ss01=1",
                 "ss02=1",
                 "ss03=1",
