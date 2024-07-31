@@ -2,7 +2,7 @@ local fallback = require("wezterm").font_with_fallback
 local function set_font()
   return fallback({
     {
-      family = "FiraCode Nerd Font Mono",
+      family = "Fira Code",
       harfbuzz_features = {
         "cv01=1",
         "cv02=1",
@@ -16,6 +16,8 @@ local function set_font()
         "zero=1",
       },
     },
+    "Symbols Nerd Font Mono",
+    "Noto Color Emoji",
     { family = "Noto Sans CJK SC" },
     { family = "Source Han Sans CN" },
     { family = "Noto Sans CJK TC" },
