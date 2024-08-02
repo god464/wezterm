@@ -50,4 +50,9 @@ return {
     mods = "CTRL|SHIFT",
     action = action.SpawnTab("CurrentPaneDomain"),
   },
+  {
+    key = "t",
+    mods = "CTRL|SHIFT",
+    action = action.SpawnWindow,
+  },
 }
