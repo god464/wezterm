@@ -1,6 +1,6 @@
 local config = require("wezterm").config_builder()
 config = {
-  font = require("fonts").set_font(),
+  font = require("fonts"),
   color_scheme = "Catppuccin Mocha",
   enable_scroll_bar = true,
   hide_tab_bar_if_only_one_tab = true,

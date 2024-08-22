@@ -11,4 +11,5 @@ return {
   { key = "l", mods = "CTRL|SHIFT|ALT", action = action.AdjustPaneSize({ "Right", 1 }) },
   { key = "n", mods = "CTRL|SHIFT", action = action.SpawnTab("CurrentPaneDomain") },
   { key = "t", mods = "CTRL|SHIFT", action = action.SpawnWindow },
+  { key = "m", mods = "CTRL|SHIFT|ALT", action = action.ShowDebugOverlay },
 }
