@@ -9,7 +9,7 @@ return {
   { key = "j", mods = "CTRL|SHIFT|ALT", action = action.AdjustPaneSize({ "Down", 1 }) },
   { key = "k", mods = "CTRL|SHIFT|ALT", action = action.AdjustPaneSize({ "Up", 1 }) },
   { key = "l", mods = "CTRL|SHIFT|ALT", action = action.AdjustPaneSize({ "Right", 1 }) },
-  { key = "n", mods = "CTRL|SHIFT", action = action.SpawnTab("CurrentPaneDomain") },
-  { key = "t", mods = "CTRL|SHIFT", action = action.SpawnWindow },
+  { key = "t", mods = "CTRL|SHIFT", action = action.SpawnTab("CurrentPaneDomain") },
+  { key = "n", mods = "CTRL|SHIFT", action = action.SpawnWindow },
   { key = "m", mods = "CTRL|SHIFT|ALT", action = action.ShowDebugOverlay },
 }
