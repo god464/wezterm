@@ -1,4 +1,5 @@
 local action = require("wezterm").action
+
 return {
   { key = "w", mods = "CTRL|SHIFT|ALT", action = action.CloseCurrentPane({ confirm = true }) },
   { key = "h", mods = "CTRL|SHIFT", action = action.ActivatePaneDirection("Left") },
