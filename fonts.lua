@@ -25,11 +25,10 @@ end
 local M = {
   set_default_name(),
   "Symbols Nerd Font Mono",
+  "Twitter Color Emoji",
   "Noto Color Emoji",
-  { family = "Noto Sans CJK SC" },
-  { family = "Source Han Sans CN" },
-  { family = "Noto Sans CJK TC" },
-  { family = "Source Han Sans TW" },
+  { family = "Sarasa Gothic" },
+  { family = "Source Han Mono SC" },
   "Plangothic P2",
   "Jigmo3",
 }

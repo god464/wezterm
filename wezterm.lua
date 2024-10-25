@@ -20,7 +20,13 @@ config = {
   keys = require("keys"),
   mouse_bindings = require("mouse"),
   front_end = "WebGpu",
+  webgpu_power_preference = "HighPerformance",
+  use_fancy_tab_bar = false,
+  tab_max_width = 25,
+  switch_to_last_active_tab_when_closing_tab = true,
   default_prog = set_term(),
+  ssh_domains = {},
+  unix_domains = {},
 }
 
 return config
