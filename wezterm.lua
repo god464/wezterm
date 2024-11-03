@@ -11,7 +11,7 @@ end
 
 config = {
   font = require("fonts"),
-  color_scheme = "Catppuccin Mocha",
+  color_scheme = "Tokyo Night Storm",
   enable_scroll_bar = true,
   hide_tab_bar_if_only_one_tab = true,
   use_ime = true,
@@ -25,8 +25,6 @@ config = {
   tab_max_width = 25,
   switch_to_last_active_tab_when_closing_tab = true,
   default_prog = set_term(),
-  ssh_domains = {},
-  unix_domains = {},
 }
 
 return config

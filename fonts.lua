@@ -24,10 +24,10 @@ end
 
 local M = {
   set_default_name(),
+  { family = "Sarasa Gothic" },
   "Symbols Nerd Font Mono",
   "Twitter Color Emoji",
   "Noto Color Emoji",
-  { family = "Sarasa Gothic" },
   { family = "Source Han Mono SC" },
   "Plangothic P2",
   "Jigmo3",
