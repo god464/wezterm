@@ -5,7 +5,7 @@ local function set_default_name()
     return "Cascadia Mono"
   else
     return {
-      family = "Fira Code",
+      family = "FiraCode Nerd Font Mono",
       harfbuzz_features = {
         "cv01=1",
         "cv02=1",
