@@ -5,7 +5,7 @@ local function set_default_name()
     return "Cascadia Mono"
   else
     return {
-      family = "FiraCode Nerd Font Mono",
+      family = "Fira Code",
       harfbuzz_features = {
         "cv01=1",
         "cv02=1",
@@ -27,9 +27,8 @@ local M = {
   { family = "Sarasa Gothic" },
   "Symbols Nerd Font Mono",
   "Twitter Color Emoji",
-  "Noto Color Emoji",
   { family = "Source Han Mono SC" },
-  "Plangothic P2",
+  { family = "Noto Sans Mono CJK SC" },
   "Jigmo3",
 }
 M = wezterm.font_with_fallback(M)
