@@ -11,7 +11,7 @@ end
 
 config = {
   font = require("fonts"),
-  color_scheme = "GruvboxDarkHard",
+  color_scheme = "nightfox",
   enable_scroll_bar = true,
   hide_tab_bar_if_only_one_tab = true,
   use_ime = true,
