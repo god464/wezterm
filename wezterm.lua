@@ -16,7 +16,6 @@ config = {
   hide_tab_bar_if_only_one_tab = true,
   use_ime = true,
   window_background_opacity = 0.8,
-  text_background_opacity = 0.8,
   keys = require("keys"),
   mouse_bindings = require("mouse"),
   front_end = "WebGpu",
